@@ -1,5 +1,8 @@
 # iconx_running
 三星iconx跑步数据的速度信息计算
+
+已知问题：和三星健康里的总距离有稍许误差，但不大
+
 ```c
 (tt,vv)=readcol("running.dat",1,2);
 tt1=tt-tt[0];
